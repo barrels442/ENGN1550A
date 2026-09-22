@@ -82,13 +82,14 @@ def enable_high_level_commander(cf):
 def fly_one_meter_line(cf):
 
     commander = cf.high_level_commander
+    
     altitude = 0.5
 
     print("Takeoff")
 
     # -----------------------------------------
     # STUDENT TASK 1:
-    # Takeoff to 0.5m in 3 seconds
+    # Takeoff to altitude in 3 seconds
     # -----------------------------------------
 
     # Write your code for Task 1 between here...
