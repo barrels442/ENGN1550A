@@ -6,7 +6,12 @@ from cflib.crazyflie.syncCrazyflie import SyncCrazyflie
 from cflib.crazyflie.log import LogConfig
 from cflib.crazyflie.syncLogger import SyncLogger
 
-URI = "[insert your radio here]"
+# -----------------------------------------
+# STUDENT TASK 0:
+# Make sure your radio address from cfclient is filled in here!
+# -----------------------------------------
+
+URI = "radio:[your radio address from cfclient]"
 
 POSITION_THRESHOLD = 0.001
 
