@@ -83,59 +83,59 @@ def fly_one_meter_line(cf):
     commander = cf.high_level_commander
     altitude = 0.5
 
-print("Takeoff")
+	print("Takeoff")
 
 
-# WRITE YOUR CODE BETWEEN THESE COMMENTS
-# -----------------------------------------
-# STUDENT TASK 1:
-# Takeoff to 0.5m in 3 seconds
-# -----------------------------------------
-
-
-
-time.sleep(4.0)
-
-print("Move to start point")
-
-# WRITE YOUR CODE BETWEEN THESE COMMENTS
-# -----------------------------------------
-# STUDENT TASK 2:
-# Move drone to (1.0, 0.0, altitude)
-# -----------------------------------------
-
-
-
-time.sleep(4.0)
-
-print("Fly 1 meter line")
-
-# WRITE YOUR CODE BETWEEN THESE COMMENTS
-# -----------------------------------------
-# STUDENT TASK 3:
-#Fly from (1.0,0,alt) back to (0.0,0,alt)
-# -----------------------------------------
-
-time.sleep(5.0)
+	# WRITE YOUR CODE BETWEEN THESE COMMENTS
+	# -----------------------------------------
+	# STUDENT TASK 1:
+	# Takeoff to 0.5m in 3 seconds
+	# -----------------------------------------
 	
-print("Hover")
-time.sleep(2.0)
-
-print("Land")
-
-
-# WRITE YOUR CODE BETWEEN THESE COMMENTS
-# -----------------------------------------
-# STUDENT TASK 4:
-# Land the drone
-# -----------------------------------------
-
-
-
-time.sleep(4.0)
-
-commander.stop()
-
+	
+	
+	time.sleep(4.0)
+	
+	print("Move to start point")
+	
+	# WRITE YOUR CODE BETWEEN THESE COMMENTS
+	# -----------------------------------------
+	# STUDENT TASK 2:
+	# Move drone to (1.0, 0.0, altitude)
+	# -----------------------------------------
+	
+	
+	
+	time.sleep(4.0)
+	
+	print("Fly 1 meter line")
+	
+	# WRITE YOUR CODE BETWEEN THESE COMMENTS
+	# -----------------------------------------
+	# STUDENT TASK 3:
+	#Fly from (1.0,0,alt) back to (0.0,0,alt)
+	# -----------------------------------------
+	
+	time.sleep(5.0)
+		
+	print("Hover")
+	time.sleep(2.0)
+	
+	print("Land")
+	
+	
+	# WRITE YOUR CODE BETWEEN THESE COMMENTS
+	# -----------------------------------------
+	# STUDENT TASK 4:
+	# Land the drone
+	# -----------------------------------------
+	
+	
+	
+	time.sleep(4.0)
+	
+	commander.stop()
+	
 
 def main():
 
